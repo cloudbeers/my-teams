@@ -1,0 +1,18 @@
+{
+   "name":"supply-chain",
+   "displayName":"Supply Chain",
+   "members":[
+      {
+         "id":"john@acme.com",
+         "role":"team-admin"
+      },
+      {
+         "id":"ada@acme.com",
+         "role":"team-member"
+      },
+      {
+         "id":"all-developers-group",
+         "role":"team-guest"
+      }
+   ]
+}

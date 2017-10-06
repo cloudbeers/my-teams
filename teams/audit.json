@@ -1,0 +1,25 @@
+{
+   "name":"audit",
+   "displayName":"Audit & Compliance",
+   "members":[
+      {
+         "id":"mike@acme.com",
+         "role":"team-admin"
+      },
+      {
+         "id":"ada@acme.com",
+         "role":"team-member"
+      }
+   ],
+   "roles": [
+      {
+         "name":"team-admin",
+         "permissions": []
+      },
+      {
+         "name": "team-member",
+         "decription": "can only read and execute, no write permission",
+         "permissions": []
+      }
+   ]
+}

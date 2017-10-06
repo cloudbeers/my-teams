@@ -1,0 +1,18 @@
+"team":{
+   "name":"procurement",
+   "displayName":"Procurement",
+   "members":[
+      {
+         "id":"isa@acme.com",
+         "role":"team-admin"
+      },
+      {
+         "id":"patrick@acme.com",
+         "role":"team-member"
+      },
+      {
+         "id":"all-developers-group",
+         "role":"team-guest"
+      }
+   ]
+}
