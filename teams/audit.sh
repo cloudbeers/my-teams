@@ -7,7 +7,7 @@ alias jenkins-cli='java -jar jenkins-cli.jar -s http://jenkins.local/jenkins -au
 jenkins-cli teams --create "Audit" || true
 
 # set or override team display name and members
-jenkins-cli teams procurement --bulk-override < procurement.json
+jenkins-cli teams audit --bulk-override < audit.json
 
 # this requires the roles in a separated file
-jenkins-cli roles procurement --bulk-override < procurement-roles.json
+jenkins-cli roles audit --bulk-override < audit-roles.json
